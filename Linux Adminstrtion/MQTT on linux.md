@@ -22,7 +22,7 @@ mosquitto_sub -h localhost -t "test/topic"
 In a second terminal window, publish a message to the topic.
 
 ```bash
-mosquitto_pub -h localhost -t "test/G" -m "Hello World"
+mosquitto_pub -h localhost -t "test/topic" -m "Hello World"
 ```
 
 You should see "Hello World" appear in Terminal 1.
